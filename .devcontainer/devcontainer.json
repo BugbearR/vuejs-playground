@@ -1,0 +1,17 @@
+{
+  "name": "vuejs-playground",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint", // ESLint
+        "firsttris.vscode-jest-runner" // Jest Runner
+      ]
+    }
+  }
+}
